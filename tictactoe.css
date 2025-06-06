@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #e63946 ;
+
+}
+.container{
+    border: 1px solid white;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.game{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 5%;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+#reset {
+    color: white;
+    padding: 1rem;
+    border: 1px solid white;
+    font-size: 1.25rem;
+    
+
+}
